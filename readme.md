@@ -7,7 +7,7 @@ Para as análises iniciais dos datasets, bem como extração/carregamento/tratam
 ## O projeto
 ---
 
-Este projeto foi desenvolvido no intuito de simular a extração, carregamento e tratamento de dados de uma empresa fabricante de bicicletas. Ao final do processo, serão realizadas _queries_ de análises dos dados baseadas em algum objetivo de negócio.
+Este projeto foi desenvolvido no intuito de realizar a extração, carregamento e tratamento de dados de uma empresa fabricante de bicicletas. Ao final do processo, serão realizadas _queries_ de análises dos dados baseadas em algum objetivo de negócio.
 
 Os diretórios e arquivos que fazem parte deste projeto são:
 
