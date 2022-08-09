@@ -8,7 +8,7 @@
 
 ### **Product**
 ---
-<img title="product" alt="Alt text" src=/home/robson/repositorios/bike-manufacturing-company/img/data/product.png>
+[![Alt text](https://github.com/rbsmotta/bike-manufacturing-company/blob/main/img/data/product.png)](https://github.com/rbsmotta/bike-manufacturing-company/blob/main/img/data/product.png)
 
 ### **Sales Order Detail**
 ---
