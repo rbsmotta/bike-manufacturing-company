@@ -65,7 +65,7 @@ Nessa camada, não foram feitas modificações nos datasets, sendo feitas apenas
 ## A "_Gold Zone_" (ou camada "_Curated_")
 ---
 
-[Nesta camada](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/bucket/work) serão armazenados os dados processados, no caso, os resultados das análises feitas nos dataset da _Work Zone_. Aqui, os datasets são muitas vezes menores (tanto em numero de linhas como em número de colunas), mais específico para _business analysis_.
+[Nesta camada](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/bucket/gold) serão armazenados os dados processados, no caso, os resultados das análises feitas nos dataset da _Work Zone_. Aqui, os datasets são muitas vezes menores (tanto em numero de linhas como em número de colunas), mais específico para _business analysis_.
 
 É nesta camada que se encontram os [resultados](https://github.com/rbsmotta/bike-manufacturing-company/blob/main/elt/queries.ipynb) das seguintes análises solicitadas:
 
