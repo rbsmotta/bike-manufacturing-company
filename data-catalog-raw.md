@@ -4,7 +4,7 @@
 
 ### **Person**
 ---
-<img title="person" alt="Alt text" src=/home/robson/repositorios/bike-manufacturing-company/img/data/person.png>
+[![Alt text](https://github.com/rbsmotta/bike-manufacturing-company/blob/main/img/data/person.png)](https://digitalocean.com)]
 
 ### **Product**
 ---
