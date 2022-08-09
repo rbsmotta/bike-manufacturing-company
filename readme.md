@@ -27,7 +27,7 @@ Para este projeto, foi utilizado um conceito de zona (camadas ou _layers_) de ar
 ## A "_Landing Zone_" (ou camada "_Raw_")
 ---
 
-Os dados nessa camada geralmente são armazenados sem nenhum ou quase nenhum tratamento, deixando-os bem próximos ao seu estado original. 
+Os dados [nesta camada](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/bucket/landing) geralmente são armazenados sem nenhum ou quase nenhum tratamento, deixando-os bem próximos ao seu estado original. 
 
 Para este projeto, foram disponibilizados 6 datasets - todos no formato CSV (_comma separeted values_). Os datasetes são:
 
@@ -51,7 +51,7 @@ Toda as análises podem ser encontradas na pasta __data-analysis__.
 ## A "_Work Zone_" (ou camada "_Refined_")
 ---
 
-É aqui que os datasets resultantes dos tratamentos são salvos. Em nosso projeto, utilizamos o formato de arquivos _parquet_. É um formato de maior eficiência e menor custo de armazenamento e computacional, além de ser o formato ideal para arquivos de datasets que serão objeto de análise. 
+É [aqui](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/bucket/work) que os datasets resultantes dos tratamentos são salvos. Em nosso projeto, utilizamos o formato de arquivos _parquet_. É um formato de maior eficiência e menor custo de armazenamento e computacional, além de ser o formato ideal para arquivos de datasets que serão objeto de análise. 
 
 É nesse estágio que ocorrem divisões com base no negócio, assuntos, projetos ou de qualquer forma que melhor organize o armazenamento.
 Neste projeto, organizamos em três locais distintos:
@@ -65,7 +65,7 @@ Nessa camada, não foram feitas modificações nos datasets, sendo feitas apenas
 ## A "_Gold Zone_" (ou camada "_Curated_")
 ---
 
-É a camada em que serão armazenados os dados processados, no caso, os resultados das análises feitas nos dataset da _Work Zone_. Aqui, os datasets são muitas vezes menores (tanto em numero de linhas como em número de colunas), mais específico para _business analysis_.
+[Nesta camada](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/bucket/work) serão armazenados os dados processados, no caso, os resultados das análises feitas nos dataset da _Work Zone_. Aqui, os datasets são muitas vezes menores (tanto em numero de linhas como em número de colunas), mais específico para _business analysis_.
 
 É nesta camada que se encontram os [resultados](https://github.com/rbsmotta/bike-manufacturing-company/blob/main/elt/queries.ipynb) das seguintes análises solicitadas:
 
