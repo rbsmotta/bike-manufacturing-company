@@ -1,6 +1,6 @@
 ### **Tabela Customer**
 ---
-[![Alt text]([https://assets.digitalocean.com/articles/alligator/boo.svg](https://github.com/rbsmotta/bike-manufacturing-company/blob/main/img/data/customer.png))](https://digitalocean.com)
+[![Alt text](https://github.com/rbsmotta/bike-manufacturing-company/blob/main/img/data/customer.png)](https://digitalocean.com)
 
 ### **Person**
 ---
