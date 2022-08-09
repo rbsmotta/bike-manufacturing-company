@@ -12,7 +12,7 @@ Este projeto foi desenvolvido no intuito de simular a extração, carregamento e
 Os diretórios que fazem parte deste projeto são:
 
 - _[data-analysis](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/data-analysis)_, contendo os notebooks das análises prévias estruturais e qualitativas dos datasets originais (_landing_);
-- _elt_, contendo script de _extração, carregamento e transformação_ (main.py) e notebook com as análises finais (queries.ipynb);
+- _[elt](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/elt)_, contendo script de _extração, carregamento e transformação_ (main.py) e notebook com as análises finais (queries.ipynb);
 - _bucket_, contendo todos os datasets do projeto, divido em zonas/camadas;
 - _img_, contendo imagens ilustrativas do projeto e diagramas;
 - _references_, contendo referencias de sites e bibliografia.
