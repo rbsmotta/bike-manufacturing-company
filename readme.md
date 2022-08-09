@@ -15,7 +15,7 @@ Os diretórios e arquivos que fazem parte deste projeto são:
 - _[elt](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/elt)_, contendo script de _extração, carregamento e transformação_ (main.py) e notebook com as análises finais (queries.ipynb);
 - _[bucket](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/bucket)_, contendo todos os datasets do projeto, divido em zonas/camadas;
 - _[img](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/img)_, contendo imagens ilustrativas do projeto e diagramas;
-- _[references](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/reference)_, contendo referencias de sites e bibliografia;
+- _[references](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/reference)_, contendo referências de sites e bibliografia;
 - _[data-catalog-raw](https://github.com/rbsmotta/bike-manufacturing-company/blob/main/data-catalog-raw.md)_, com informações das colunas e tipos de dados dos dataframes em _landing_. 
 
 Para este projeto, foi utilizado um conceito de zona (camadas ou _layers_) de armazenamento dos dados. Cada camada tem um grau de preparação dos dados, desde seu modo mais bruto - denominada zona **_Landing_** (ou _raw layer_) até um grau maior de processamento para análises de negócio - a zona **_Gold_** (ou _curated layer_), passando por uma camada de primeiro contato com engenharia/ciência de dados, na zona denominada **_Work_** (ou _refined layer_).
@@ -40,25 +40,23 @@ Para este projeto, foram disponibilizados 6 datasets - todos no formato CSV (_co
 
 Primeiramente, foram feitas análises _estruturais_ e _qualitativas_ nos datasets, visando a identificação de possíveis anomalias e suas correções necessárias para que os datasets possam "avançar" para a próxima camada (_work_ /_curated_). 
 
-Feitas as análises, constataram-se alguns problemas, majoritariamente campos vazios e tipos numéricos em colunas não quantitativas. 
+Feitas as análises, constataram-se alguns problemas de campos vazios e tipos numéricos em colunas não quantitativas. 
 
-Dependendo da coluna e de sua importância para possíveis análises futuras, foram adicionadas informações no lugar dos espaços vazios ("undefined"), outras colunas foram excluídas por completo. Em alguns casos optamos por excluir as linhas com os dados faltantes. 
+Dependendo da coluna e de sua importância para possíveis análises futuras, foram adicionadas informações no lugar dos espaços vazios ("undefined"), outras colunas foram excluídas por completo. Em alguns casos optamos por excluir as linhas com os dados faltantes. Tais escolhas devem ser tomadas com base em regras de negócio e governança. No caso deste projeto, o foco foi nas análises pré-determinadas e em possíveis análises futuras (no caso hipotético dos dadasets virem a estar mais completos em extrações futuras).
 
-Toda essa governança geralmente segue as regras do negócio. Aqui, o foco foi nas análises que foram determinadas e em possíveis análises futuras (no caso hipotético dos dados serem preenchidos em extrações futuras).
-
-Toda as análises podem ser encontradas na pasta __data-analysis__. 
+Toda as análises podem ser encontradas na pasta __[data-analysis](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/data-analysis)__. 
 
 ## A "_Work Zone_" (ou camada "_Refined_")
 ---
 
 É [aqui](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/bucket/work) que os datasets resultantes dos tratamentos são salvos. Em nosso projeto, utilizamos o formato de arquivos _parquet_. É um formato de maior eficiência e menor custo de armazenamento e computacional, além de ser o formato ideal para arquivos de datasets que serão objeto de análise. 
 
-É nesse estágio que ocorrem divisões com base no negócio, assuntos, projetos ou de qualquer forma que melhor organize o armazenamento.
+É nesse estágio que podem ocorrer divisões com base no negócio, em assuntos, projetos ou de qualquer outra forma que melhor organize o armazenamento.
 Neste projeto, organizamos em três locais distintos:
 
-- _Person_, destinado ao dataset com dados dos clientes;
-- _Production_, destinado ao dataset com dados dos produtos;
-- _Sales_, destinado aos datasets com dados de vendas.
+- _[Person](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/bucket/work/person)_, destinado aos dados dos clientes;
+- _[Production](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/bucket/work/production)_, destinado aos dados dos produtos;
+- _[Sales](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/bucket/work/sales)_, destinado aos dados de vendas.
 
 Nessa camada, não foram feitas modificações nos datasets, sendo feitas apenas as análises de negócio.
 
