@@ -4,7 +4,7 @@
 
 ### **Person**
 ---
-[![Alt text](https://github.com/rbsmotta/bike-manufacturing-company/blob/main/img/data/person.png)](https://digitalocean.com)]
+[![Alt text](https://github.com/rbsmotta/bike-manufacturing-company/blob/main/img/data/person.png)](https://digitalocean.com)
 
 ### **Product**
 ---
