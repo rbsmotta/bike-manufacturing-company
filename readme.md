@@ -1,8 +1,8 @@
 # A Bike Manufacturing Company
 
-    Projeto de infraestrutura local, utilizando conceitos de armazenamento organizado em camadas. 
+Projeto de infraestrutura local, utilizando conceitos de armazenamento organizado em camadas. 
 
-    Para as análises iniciais dos datasets, bem como extração/carregamento/tratamento dos dados, foi utilizada a biblioteca Pandas do Python. As queries das análises finais foram feitas com o PySpark SQL.
+Para as análises iniciais dos datasets, bem como extração/carregamento/tratamento dos dados, foi utilizada a biblioteca Pandas do Python. As queries das análises finais foram feitas com o PySpark SQL.
 
 ## O projeto
 ---
