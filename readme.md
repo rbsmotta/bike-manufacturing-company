@@ -13,9 +13,9 @@ Os diretórios que fazem parte deste projeto são:
 
 - _[data-analysis](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/data-analysis)_, contendo os notebooks das análises prévias estruturais e qualitativas dos datasets originais (_landing_);
 - _[elt](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/elt)_, contendo script de _extração, carregamento e transformação_ (main.py) e notebook com as análises finais (queries.ipynb);
-- _bucket_, contendo todos os datasets do projeto, divido em zonas/camadas;
-- _img_, contendo imagens ilustrativas do projeto e diagramas;
-- _references_, contendo referencias de sites e bibliografia.
+- _[bucket](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/bucket)_, contendo todos os datasets do projeto, divido em zonas/camadas;
+- _[img](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/img)_, contendo imagens ilustrativas do projeto e diagramas;
+- _[references](https://github.com/rbsmotta/bike-manufacturing-company/tree/main/reference)_, contendo referencias de sites e bibliografia.
 
 Para este projeto, foi utilizado um conceito de zona (camadas ou _layers_) de armazenamento dos dados. Cada camada tem um grau de preparação dos dados, desde seu modo mais bruto - denominada zona **_Landing_** (ou _raw layer_) até um grau maior de processamento para análises de negócio - a zona **_Gold_** (ou _curated layer_), passando por uma camada de primeiro contato com engenharia/ciência de dados, na zona denominada **_Work_** (ou _refined layer_).
 
