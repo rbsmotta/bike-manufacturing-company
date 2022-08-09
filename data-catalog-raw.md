@@ -12,7 +12,7 @@
 
 ### **Sales Order Detail**
 ---
-[![Alt text](https://github.com/rbsmotta/bike-manufacturing-company/blob/main/img/data/sales-order-detail.png)](https://github.com/rbsmotta/bike-manufacturing-company/blob/main/img/data/sales-order-detail.png)]
+[![Alt text](https://github.com/rbsmotta/bike-manufacturing-company/blob/main/img/data/sales-order-detail.png)](https://github.com/rbsmotta/bike-manufacturing-company/blob/main/img/data/sales-order-detail.png)
 
 ### **Sales Order Header**
 ---
