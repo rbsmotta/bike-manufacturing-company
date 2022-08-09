@@ -1,0 +1,7 @@
+https://www.immuta.com/blog/what-is-data-de-identification/
+
+https://corporatefinanceinstitute.com/resources/knowledge/data-analysis/data-lake/
+
+https://lingarogroup.com/blog/data-lake-architecture/
+
+"The Enterprise Big Data Lake - Delivering The Promise of Big Data and Data Science", by Alex Gorelik
