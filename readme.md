@@ -21,6 +21,8 @@ Para este projeto, foi utilizado um conceito de zona (camadas ou _layers_) de ar
 
 É importante frisar que o conceito independe do nome dado às camadas. O importante é a abordagem do conceito propriamente dito.
 
+[![Alt text](https://github.com/rbsmotta/bike-manufacturing-company/blob/main/img/diagram.png)]([https://digitalocean.com](https://github.com/rbsmotta/bike-manufacturing-company/blob/main/img/diagram.png))
+
 ## A "_Landing Zone_" (ou camada "_Raw_")
 ---
 
