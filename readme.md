@@ -67,7 +67,7 @@ Nessa camada, não foram feitas modificações nos datasets, sendo feitas apenas
 
 É a camada em que serão armazenados os dados processados, no caso, os resultados das análises feitas nos dataset da _Work Zone_. Aqui, os datasets são muitas vezes menores (tanto em numero de linhas como em número de colunas), mais específico para _business analysis_.
 
-Neste projeto, é [aqui](https://github.com/rbsmotta/bike-manufacturing-company/blob/main/elt/queries.ipynb) que se encontram os resultados das seguintes análises solicitadas:
+É nesta camada que se encontram os [resultados](https://github.com/rbsmotta/bike-manufacturing-company/blob/main/elt/queries.ipynb) das seguintes análises solicitadas:
 
 _1- Quantidade de linhas na tabela "Sales.SalesOrderDetail" pelo campo SalesOrderID, desde que tenham pelo menos três linhas_;
 
