@@ -1,6 +1,6 @@
 ### **Tabela Customer**
 ---
-<img title="customer" alt="Alt text" src=/home/robson/repositorios/bike-manufacturing-company/img/data/customer.png>
+<img title="customer" alt="Alt text" src=[/home/robson/repositorios/bike-manufacturing-company/img/data/customer.png](https://github.com/rbsmotta/bike-manufacturing-company/blob/main/img/data/customer.png)>
 
 ### **Person**
 ---
